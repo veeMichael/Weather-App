@@ -1,0 +1,34 @@
+{% extends 'main.html'%}{% block content %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Weather app</title>
+  </head>
+  <body>
+    <h1>Check The Weather Of A City</h1>
+    <hr />
+    <form action="{% url 'search' %}" method="GET">
+      <input type="text" name="city" placeholder="Enter City Name" />
+      <input type="submit" value="Search" />
+    </form>
+    {% if weather_data %}
+    <h2>Weather in {{city | title}}</h2>
+    <p>
+      {% if weather_data.weather.0.icon %}
+      <img
+        src="http://openweathermap.org/img/wn/{{weather_data.weather.0.icon}}@2x.png"
+      />
+      {% endif %}
+    </p>
+    <p>Temperature: {{weather_data.main.temp_f}}°F</p>
+    <p>Humidity: {{weather_data.main.humidity}} %</p>
+    <p>Description: {{weather_data.weather.0.description | capfirst}}</p>
+    {% else %}
+    <p>Enter a City Name Above</p>
+    {% endif %}
+  </body>
+</html>
+{%endblock%}
