@@ -36,9 +36,9 @@ A special thank you to OpenWeatherMap for providing a reliable and free weather 
 
 Screenshots
 
-![1a](https://user-images.githubusercontent.com/91182988/218394257-91f1a2bf-115c-4b0c-bc76-b60cdcf46375.jpg)
+![1](https://user-images.githubusercontent.com/91182988/218394762-66fc306b-51c0-4461-bef4-a5f2ec9ac5b0.png)
+![2](https://user-images.githubusercontent.com/91182988/218394763-267997f0-2b8a-4718-88db-de82272829b2.png)
 
-![1b](https://user-images.githubusercontent.com/91182988/218394409-6121ee6e-d62c-4101-bfff-708ba778c4f4.jpg)
 
 
 
