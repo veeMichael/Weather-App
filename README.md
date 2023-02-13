@@ -1,4 +1,4 @@
-Weather App
+# Weather App
 
 This is a weather app built with Django that allows users to search for current weather information in any city. The app uses the OpenWeatherMap API to retrieve current weather data and displays it in a user-friendly interface.
 
