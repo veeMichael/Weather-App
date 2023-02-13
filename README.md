@@ -26,6 +26,11 @@ Run pip install -r requirements.txt to install the necessary dependencies
 
 Run python manage.py runserver to start the local development server
 
+
+Extra Information/Reminder:
+
+You need to make your own SECRET_KEY in settings.py & get your own weather api for views.py from https://openweathermap.org to make the program run.
+
 - - -
 
 Acknowledgments
