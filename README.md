@@ -31,3 +31,15 @@ Run python manage.py runserver to start the local development server
 Acknowledgments
 
 A special thank you to OpenWeatherMap for providing a reliable and free weather API.
+
+- - - 
+
+Screenshots
+
+![1a](https://user-images.githubusercontent.com/91182988/218394257-91f1a2bf-115c-4b0c-bc76-b60cdcf46375.jpg)
+
+![1b](https://user-images.githubusercontent.com/91182988/218394409-6121ee6e-d62c-4101-bfff-708ba778c4f4.jpg)
+
+
+
+
